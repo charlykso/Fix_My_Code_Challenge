@@ -1,0 +1,47 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "fizzbuzz",
+        "kind": 2,
+        "importPath": "0x00-challenge.0-fizzbuzz",
+        "description": "0x00-challenge.0-fizzbuzz",
+        "peekOfCode": "def fizzbuzz(n):\n    \"\"\"\n    FizzBuzz function prints numbers from 1 to n separated by a space.\n    - For multiples of three print \"Fizz\" instead of the number and for\n      multiples of five print \"Buzz\".\n    - For numbers which are multiples of both three and five print \"FizzBuzz\".\n    \"\"\"\n    if n < 1:\n        return\n    tmp_result = []",
+        "detail": "0x00-challenge.0-fizzbuzz",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "0x00-challenge.3-user",
+        "description": "0x00-challenge.3-user",
+        "peekOfCode": "class User():\n    \"\"\"\n    User class:\n    - id: public string unique (uuid)\n    - password: private string hash in MD5\n    \"\"\"\n    __password = None\n    def __init__(self):\n        \"\"\"\n        Initialize a new user:",
+        "detail": "0x00-challenge.3-user",
+        "documentation": {}
+    }
+]
